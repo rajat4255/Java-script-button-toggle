@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+            <html>
+              <head>
+                <title>JavaScript App</title>
+                <script type="text/javascript">
+                var state=true;
+                 function myFunc()
+                {  state=!state;
+                  if(state==false){
+                  document.getElementById("botton1").innerHTML="OFF";}
+                  if(state==true){
+                   document.getElementById("botton1").innerHTML="ON";   
+                  }
+                  
+                }</script>
+                
+              </head>
+              <body>
+                
+                <button type="button" id="botton1" onclick="myFunc()">ON</button>
+              </body>
+            </html>
